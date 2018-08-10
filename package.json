@@ -1,0 +1,20 @@
+{
+  "name": "outpost-configuration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b . && webpack"
+  },
+  "author": "toni.menzel@rebaze.com",
+  "license": "rebaze",
+  "dependencies": {
+    "@types/validator": "^9.4.1",
+    "validator": "^10.5.0",
+    "webpack": "^4.16.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}
